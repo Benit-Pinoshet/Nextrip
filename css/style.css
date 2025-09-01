@@ -1,0 +1,193 @@
+:root {
+    --principal: rgb(0, 99, 198);
+    --element: rgb(255, 0, 102);
+    --secundaria: #ffffff;
+    --textos: rgb(80, 80, 80);
+    --bs: rgb(211, 207, 255);
+    --bg: rgb(247, 244, 255);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--bg);
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    padding: 30px 20px;
+}
+
+.titulo {
+    font-size: 28pt;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--principal), var(--element) 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.intro {
+    font-style: 15pt;
+    font-weight: 200;
+    color: var(--principal);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tema {
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--principal);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.texto1 {
+    font-size: 12pt;
+    font-weight: 400;
+    color: var(--textos);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.comecar {
+    padding: 10px;
+    width: 170px;
+    border-radius: 7px;
+    background-color: var(--element);
+    color: var(--secundaria);
+    cursor: pointer;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.comecar:hover {
+    background-color: rgb(220, 0, 88);
+}
+
+#sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 95%;
+    max-width: 1300px;
+    padding: 20px;
+}
+
+#perguntas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    width: 95%;
+    max-width: 1300px;
+    padding: 20px;
+}
+
+#passageiro-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 95%;
+    max-width: 1300px;
+    padding: 20px;
+}
+
+#passageiro-img img {
+    width: 95%;
+    max-width: 360px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px var(--bs);
+
+}
+
+.texto-maior {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo2 {
+    font-size: 25pt;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--principal), var(--element) 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card {
+    width: 360px;
+    min-height: 170px;
+    padding: 20px;
+    background-color: var(--secundaria);
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px var(--bs);
+}
+
+.card-details {
+    width: 360px;
+    padding: 20px;
+    background-color: var(--secundaria);
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px var(--bs);
+}
+
+.titulo-card {
+    font-size: 14pt;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--principal), var(--element) 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+}
+
+.texto-card {
+    font-size: 12pt;
+    font-weight: 400;
+    color: var(--textos);
+    margin-top: 2px;
+    text-align: left;
+}
+
+.lid {
+    font-size: 17pt;
+    font-weight: 600;
+    color: var(--principal);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+summary {
+    cursor: pointer;
+}
