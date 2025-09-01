@@ -103,7 +103,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     width: 95%;
     max-width: 1300px;
     padding: 20px;
@@ -192,3 +192,4 @@ summary {
     cursor: pointer;
 
 }
+
